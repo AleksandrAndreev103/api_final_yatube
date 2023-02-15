@@ -11,6 +11,7 @@ class PostSerializer(serializers.ModelSerializer):
         model = Post
         read_only_fields = ('author',)
 
+
 class CommentSerializer(serializers.ModelSerializer):
     author = serializers.SlugRelatedField(
         read_only=True, slug_field='username'
@@ -19,10 +20,12 @@ class CommentSerializer(serializers.ModelSerializer):
         read_only=True,
         slug_field='pk'
     )
+    
     class Meta:
         fields = '__all__'
         model = Comment
         read_only_fields = ('author', 'post',)
+
 
 class UserSerializer(serializers.ModelSerializer):
     posts = serializers.StringRelatedField(many=True, read_only=True)
@@ -31,6 +34,7 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ('username', 'first_name', 'last_name', 'posts')
         ref_name = 'ReadOnlyUsers'
+
 
 class GroupSerializer(serializers.ModelSerializer):
     class Meta:
@@ -48,8 +52,7 @@ class FollowSerializer(serializers.ModelSerializer):
         slug_field='username',
         queryset=User.objects.all()
     )
-    
-    
+
     class Meta:
         model = Follow
         fields = ('user', 'following')
@@ -61,7 +64,7 @@ class FollowSerializer(serializers.ModelSerializer):
                 message='На него уже оформлена подписка'
             )
         ]
-        
+
     def validate_following(self, following):
         user = self.context['request'].user
         if following == user:
