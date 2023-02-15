@@ -20,7 +20,7 @@ class CommentSerializer(serializers.ModelSerializer):
         read_only=True,
         slug_field='pk'
     )
-    
+
     class Meta:
         fields = '__all__'
         model = Comment
