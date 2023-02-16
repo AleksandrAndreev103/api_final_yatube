@@ -57,13 +57,13 @@ python3 manage.py runserver
 
 ### QUERY PARAMETERS
 ```
-limit[^1]	
+limit[^1].	
 
-offset[^2]
+offset[^2].
 
-[^1]: integer
+  [^1]: integer
 Количество публикаций на страницу
-[^2]: integer
+  [^2]: integer
 Номер страницы после которой начинать выдачу
 ```
 
@@ -77,12 +77,12 @@ offset[^2]
 ### REQUEST BODY SCHEMA: 
 
 ```
-username [^1]
-password [^2]
+username [^1].
+password [^2].
 
-[^1]: required
+  [^1]: required
 string
-[^2]: required
+  [^2]: required
 string
 
 ```
@@ -98,14 +98,14 @@ string
 ### REQUEST BODY SCHEMA: 
 
 ```
-text[^1]
-image [^2]
-group [^3]
+text[^1].
+image [^2].
+group [^3].
 
-[^1]: required
+  [^1]: required
 string (текст публикации)
-[^2]: string or null <binary>
-[^3]: integer or null (id сообщества)
+  [^2]: string or null <binary>
+  [^3]: integer or null (id сообщества)
 ```
 
 ### Responses
