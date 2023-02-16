@@ -49,7 +49,7 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-
+<p align="right">(<a href="#top">Наверх</a>)</p>
 # Примеры
 
 ## Получение публикаций
@@ -115,4 +115,4 @@ string (текст публикации)
 - 401 Запрос от имени анонимного пользователя
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Наверх</a>)</p>
