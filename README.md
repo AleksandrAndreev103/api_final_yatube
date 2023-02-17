@@ -1,3 +1,21 @@
+## Table of Contents
+<ul>
+ <li><a href="#Why-Colossal-AI">Why Colossal-AI</a> </li>
+ <li><a href="#Features">Features</a> </li>
+ <li>
+   <a href="#Parallel-Training-Demo">Parallel Training Demo</a>
+   <ul>
+     <li><a href="#GPT-3">GPT-3</a></li>
+     <li><a href="#GPT-2">GPT-2</a></li>
+     <li><a href="#BERT">BERT</a></li>
+     <li><a href="#PaLM">PaLM</a></li>
+     <li><a href="#OPT">OPT</a></li>
+     <li><a href="#ViT">ViT</a></li>
+     <li><a href="#Recommendation-System-Models">Recommendation System Models</a></li>
+   </ul>
+ </li>
+ <li>
+
 # Описание:
 
 
