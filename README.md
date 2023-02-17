@@ -358,7 +358,7 @@ group. integer or null (id сообщества)
 ```
 /api/v1/posts/{post_id}/comments/
 
-post_id. required
+post_id. integer (required)
 ```
  
  ### REQUEST BODY SCHEMA: 
