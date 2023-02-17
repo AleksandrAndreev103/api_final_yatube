@@ -7,10 +7,6 @@
    <ul>
      <li><a href="#Windows">Windows</a></li>
      <li><a href="#MAC OS/Linux(Ubuntu)">MAC OS/Linux(Ubuntu)</a></li>
-     <li><a href="#BERT">BERT</a></li>
-     <li><a href="#PaLM">PaLM</a></li>
-     <li><a href="#OPT">OPT</a></li>
-     <li><a href="#ViT">ViT</a></li>
      <li><a href="#Recommendation-System-Models">Recommendation System Models</a></li>
    </ul>
  </li>
