@@ -19,7 +19,7 @@
  <li>
    <a href="#Примеры">Примеры</a>
    <ul>
-     <li><a href="##Получение публикаций (GET)">Проект на Windows</a></li>
+     <li><a href="##Получение-публикаций (GET)">Получение публикаций (GET)</a></li>
      <li><a href="#Проект-на-MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
    </ul>
  </li>
