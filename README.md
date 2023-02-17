@@ -6,7 +6,7 @@
    <a href="#Как запустить проект">Как запустить проект</a>
    <ul>
      <li><a href="#Windows">Windows</a></li>
-     <li><a href="#GPT-2">GPT-2</a></li>
+     <li><a href="#MAC OS/Linux(Ubuntu)">MAC OS/Linux(Ubuntu)</a></li>
      <li><a href="#BERT">BERT</a></li>
      <li><a href="#PaLM">PaLM</a></li>
      <li><a href="#OPT">OPT</a></li>
@@ -40,11 +40,55 @@ cd api_final_yatube
 Cоздать и активировать виртуальное окружение:
 
 ```
+python -m venv env
+```
+
+```
+source venv/Scripts/activate
+```
+
+Установить зависимости из файла requirements.txt:
+
+```
+python -m pip install --upgrade pip
+```
+
+```
+pip install -r requirements.txt
+```
+
+Выполнить миграции:
+
+```
+python manage.py migrate
+```
+
+Запустить проект:
+
+```
+python manage.py runserver
+```
+<p align="right">(<a href="#top">Наверх</a>)</p>
+
+# MAC OS/Linux(Ubuntu)
+Клонировать репозиторий и перейти в него в командной строке:
+
+```
+git clone https://github.com/infinitum6666/api_final_yatube.git
+```
+
+```
+cd api_final_yatube
+```
+
+Cоздать и активировать виртуальное окружение:
+
+```
 python3 -m venv env
 ```
 
 ```
-source env/bin/activate
+source venv/bin/activate
 ```
 
 Установить зависимости из файла requirements.txt:
@@ -54,7 +98,7 @@ python3 -m pip install --upgrade pip
 ```
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Выполнить миграции:
