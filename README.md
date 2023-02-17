@@ -12,8 +12,8 @@
  <li>
    <a href="#Как проект запустить">Как запустить проект</a>
    <ul>
-     <li><a href="#Windows">Проект на Windows</a></li>
-     <li><a href="#MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
+     <li><a href="#Windows-Как">Проект на Windows</a></li>
+     <li><a href="#MacOS-Как">Проект на MacOS/Linux(Ubuntu)</a></li>
    </ul>
  </li>
  <li><a href="#Примеры">Примеры</a></li>
