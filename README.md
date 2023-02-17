@@ -1,11 +1,11 @@
 ## Table of Contents
 <ul>
- <li><a href="#Why-Colossal-AI">Why Colossal-AI</a> </li>
- <li><a href="#Features">Features</a> </li>
+ <li><a href="#Описание">Описание</a> </li>
+ 
  <li>
-   <a href="#Parallel-Training-Demo">Parallel Training Demo</a>
+   <a href="#Как запустить проект">Как запустить проект</a>
    <ul>
-     <li><a href="#GPT-3">GPT-3</a></li>
+     <li><a href="#Windows">Windows</a></li>
      <li><a href="#GPT-2">GPT-2</a></li>
      <li><a href="#BERT">BERT</a></li>
      <li><a href="#PaLM">PaLM</a></li>
@@ -23,8 +23,10 @@
 
 
 
-### Как запустить проект:
+# Как запустить проект:
 
+  
+# Windows
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
