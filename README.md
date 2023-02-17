@@ -10,7 +10,7 @@
    </ul>
  </li>
  <li>
-   <a href="#Установка интерпретатора Python">Установка интерпретатора Python</a>
+   <a href="#Как запустить проект">Установка интерпретатора Python</a>
    <ul>
      <li><a href="#Windows">Проект на Windows</a></li>
      <li><a href="#MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
@@ -95,7 +95,7 @@ sudo apt install python3.9-venv
 python3.9 --version 
 ```
 
-# Как запустить:
+# Как запустить проект:
 
 # Windows
 Клонировать репозиторий и перейти в него в командной строке:
