@@ -48,7 +48,7 @@
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
--Добавьте пакетный менеджер Homebrew к переменным окружения. Последовательно введите в терминал и выполните команды:
+- Добавьте пакетный менеджер Homebrew к переменным окружения. Последовательно введите в терминал и выполните команды:
 
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
@@ -58,15 +58,15 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 brew search python
 ```
--Если данная версия Python не установлена, введите команду:
+- Если данная версия Python не установлена, введите команду:
 ```
 brew install python@3.9 
 ```
--После установки проверьте, что Homebrew установил версию 3.9 версией по умолчанию для Python:
+- После установки проверьте, что Homebrew установил версию 3.9 версией по умолчанию для Python:
 ```
 python3 --version
 ```
--Если это не так:
+- Если это не так:
 ```
 # Отвяжите текущую версию.
 brew unlink python@3.текущая_версия
