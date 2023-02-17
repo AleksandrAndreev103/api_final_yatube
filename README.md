@@ -1,4 +1,4 @@
-## Table of Contents
+## Оглавление
 <ul>
  <li><a href="#Описание">Описание</a> </li>
  
