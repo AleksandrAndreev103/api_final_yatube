@@ -10,7 +10,7 @@
    </ul>
  </li>
  <li>
-   <a href="#Как запустить проект">Как запустить проект</a>
+   <a href="#Как проект запустить">Как запустить проект</a>
    <ul>
      <li><a href="#Windows">Проект на Windows</a></li>
      <li><a href="#MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
@@ -95,9 +95,9 @@ sudo apt install python3.9-venv
 python3.9 --version 
 ```
 
-# Как запустить проект:
+# Как проект запустить:
 
-# Проект на Windows
+# Windows
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
@@ -141,7 +141,7 @@ python manage.py runserver
 ```
 <p align="right">(<a href="#top">Наверх</a>)</p>
 
-# Проект на MacOS
+# MacOS
 ***Также можно использовать для Linux(Ubuntu).*** 
 
 Клонировать репозиторий и перейти в него в командной строке:
