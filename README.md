@@ -9,6 +9,7 @@
      <li><a href="#MacOS/Linux(Ubuntu)">MacOS/Linux(Ubuntu)</a></li>
    </ul>
  </li>
+ <li><a href="#Примеры">Примеры</a></li>
 </ul>
 
 
