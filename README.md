@@ -6,7 +6,7 @@
    <a href="#Как запустить проект">Как запустить проект</a>
    <ul>
      <li><a href="#Windows">Windows</a></li>
-     <li><a href="#MAC OS/Linux(Ubuntu)">MAC OS/Linux(Ubuntu)</a></li>
+     <li><a href="#MAC_OS/Linux(Ubuntu)">MAC OS/Linux(Ubuntu)</a></li>
      <li><a href="#Recommendation-System-Models">Recommendation System Models</a></li>
    </ul>
  </li>
