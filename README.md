@@ -6,7 +6,7 @@
    <a href="#Как запустить проект">Как запустить проект</a>
    <ul>
      <li><a href="#Windows">Windows</a></li>
-     <li><a href="#MacOS/Linux(Ubuntu)">MacOS/Linux(Ubuntu)</a></li>
+     <li><a href="#MacOS">MacOS/Linux(Ubuntu)</a></li>
    </ul>
  </li>
  <li><a href="#Примеры">Примеры</a></li>
@@ -68,7 +68,7 @@ python manage.py runserver
 ```
 <p align="right">(<a href="#top">Наверх</a>)</p>
 
-# MacOS/Linux(Ubuntu)
+# MacOS
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
