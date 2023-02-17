@@ -10,7 +10,7 @@
    </ul>
  </li>
  <li>
-   <a href="#Как запустить проект">Как запустить проект</a>
+   <a href="#Установка интерпретатора Python">Установка интерпретатора Python</a>
    <ul>
      <li><a href="#Windows">Проект на Windows</a></li>
      <li><a href="#MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
