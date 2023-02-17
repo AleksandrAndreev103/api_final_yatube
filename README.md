@@ -7,7 +7,6 @@
    <ul>
      <li><a href="#Windows">Windows</a></li>
      <li><a href="#MacOS/Linux(Ubuntu)">MacOS/Linux(Ubuntu)</a></li>
-     <li><a href="#Recommendation-System-Models">Recommendation System Models</a></li>
    </ul>
  </li>
 </ul>
