@@ -16,7 +16,16 @@
      <li><a href="#Проект-на-MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
    </ul>
  </li>
- <li><a href="#Примеры">Примеры</a></li>
+ <li>
+   <a href="#Примеры">Примеры</a>
+   <ul>
+     <li><a href="##Получение публикаций (GET)">Проект на Windows</a></li>
+     <li><a href="#Проект-на-MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
+   </ul>
+ </li>
+ 
+
+
 </ul>
 
 
@@ -203,10 +212,6 @@ limit.	integer Количество публикаций на страницу
 offset. integer Номер страницы после которой начинать выдачу
 
 ```
-limit.	integer Количество публикаций на страницу
-
-offset. integer Номер страницы после которой начинать выдачу
-
 
 
 #### Responses
