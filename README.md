@@ -2,7 +2,7 @@
 <ul>
  <li><a href="#Описание">Описание</a> </li>
  <li>
-   <a href="#Установка интерпретатора Python:">Установка интерпретатора Python</a>
+   <a href="#Установка-интерпретатора-Python">Установка интерпретатора Python</a>
    <ul>
      <li><a href="#Windows">Windows</a></li>
      <li><a href="#MacOS">MacOS</a></li>
@@ -10,10 +10,10 @@
    </ul>
  </li>
  <li>
-   <a href="#Как запустить проект:">Как запустить проект</a>
+   <a href="#Как-запустить-проект">Как запустить проект</a>
    <ul>
-     <li><a href="#Windows">Проект на Windows</a></li>
-     <li><a href="#MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
+     <li><a href="#Проект-на-Windows">Проект на Windows</a></li>
+     <li><a href="#Проект-на-MacOS">Проект на MacOS/Linux(Ubuntu)</a></li>
    </ul>
  </li>
  <li><a href="#Примеры">Примеры</a></li>
@@ -97,7 +97,7 @@ python3.9 --version
 
 # Как запустить проект:
 
-# Windows
+# Проект на Windows
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
@@ -141,7 +141,7 @@ python manage.py runserver
 ```
 <p align="right">(<a href="#top">Наверх</a>)</p>
 
-# MacOS
+# Проект на MacOS
 ***Также можно использовать для Linux(Ubuntu).*** 
 
 Клонировать репозиторий и перейти в него в командной строке:
